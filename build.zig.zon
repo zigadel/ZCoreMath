@@ -1,0 +1,15 @@
+// ZCoreMath package manifest (Zig .zon)
+.{
+    .name = .zcoremath,
+    .fingerprint = 0x3f454917c34741be,
+    .version = "0.1.0",
+    .paths = .{
+        // Export the root; consumers import "root.zig" from here.
+        "src",
+        // Optional: include README/spec/docs in package if you want to ship them.
+        "docs",
+    },
+    .dependencies = .{
+        // No external deps; lowest layer in ZMath Libs.
+    },
+}
